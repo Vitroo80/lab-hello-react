@@ -1,8 +1,17 @@
+import Block from "./components/Block";
+import Header from "./components/Header";
+import Infos from "./components/Infos";
 
+import "./style.css"
 function App() {
   return (
-    <div className="App"></div>
+    <>
+      <Header/>
+      <Block/>
+      <Infos/>
+    </>
   );
 }
+
 
 export default App;
